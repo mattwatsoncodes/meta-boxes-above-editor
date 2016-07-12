@@ -31,7 +31,7 @@ class RenderMetaBoxes {
  		$screen     = get_current_screen();
  		$post_types = apply_filters(
  			'mkdo_mbae_post_types_filter',
- 			get_option( 'mkdo_mbae_post_types', array( 'post', 'page' ) )
+ 			get_option( 'mkdo_mbae_post_types', array( 'post', 'page' ) ) 
  		);
 
  		if ( in_array( $screen->id, $post_types ) ) {
