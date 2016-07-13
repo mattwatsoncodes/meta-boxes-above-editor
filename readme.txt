@@ -1,22 +1,22 @@
 === Meta Boxes Above Editor ===
 Contributors: mkdo, mwtsn
 Donate link:
-Tags: meta, meta box, cmb2, postbox container
-Requires at least: 4.4
+Tags: meta, meta box, cmb2, postbox, postbox container
+Requires at least: 4.5
 Tested up to: 4.5
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Move meta boxes above the editor field (below the title) by adding 'primary' as a context value.
+Render meta boxes above the editor, by dragging and dropping, or registering a meta box with a 'context' value of 'primary'.
 
 == Description ==
 
-Designed initially to work with [CMB2](https://wordpress.org/plugins/cmb2/), but will work with any manually added Custom Meta Box.
+Designed initially to work with [CMB2](https://wordpress.org/plugins/cmb2/), but will work with any Meta Box.
 
-Adds a new 'Postbox Container' to WordPress above the editor (`postbox-container-0`) to render meta boxes above the editor (below the title).
+Adds a new 'Postbox Container' to WordPress above the editor (`postbox-container-0`) to render meta boxes above the editor (below the title). You can use this container to drag existing meta boxes above the editor.
 
-Simply add a value of 'primary' as the context value for the meta boxes to appear.
+To initialize a meta box above the editor, you can add a 'context' value of 'primary' when you register the meta box, and it will automatically appear above the editor.
 
 == Installation ==
 
@@ -28,9 +28,14 @@ Simply add a value of 'primary' as the context value for the meta boxes to appea
 == Screenshots ==
 
 1. Meta box rendering above the editor
-2. Choose the post types that you want to use this with
+2. Choose the post types that you want to enable the postbox container on
+3. Drag any meta box above the editor
+4. Add a 'context' of primary when registering your meta box for it to appear above the editor (code example using [CMB2](https://wordpress.org/plugins/cmb2/)).
 
 == Changelog ==
 
 = 1.0.0 =
 * First stable release
+
+= 1.0.1 =
+* Updated documentation

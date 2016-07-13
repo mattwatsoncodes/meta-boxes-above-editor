@@ -6,8 +6,8 @@
  *
  * Plugin Name:       Meta Boxes Above Editor
  * Plugin URI:        https://github.com/mkdo/meta-boxes-above-editor
- * Description:       Move meta boxes above the editor field (below the title) by adding 'primary' as a context value.
- * Version:           1.0.0
+ * Description:       Render meta boxes above the editor, by dragging and dropping, or registering a meta box with a 'context' value of 'primary'.
+ * Version:           1.0.1
  * Author:            Make Do <hello@makedo.in>
  * Author URI:        http://www.makedo.in
  * License:           GPL-2.0+
