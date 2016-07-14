@@ -21,3 +21,4 @@ To initialize a meta box above the editor, you can add a 'context' value of 'pri
 
 **1.0.0** - *11.07.2016* - First stable release.  
 **1.0.1** - *12.07.2016* - Updated documentation.    
+**1.0.2** - *14.07.2016* - Fixed date picker float for CMB2 when above editor.  

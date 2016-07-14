@@ -5,4 +5,8 @@
 	margin-top: 20px;
 }
 
+#ui-datepicker-div {
+	z-index: 9999 !important;
+}
+
 /* Options */
