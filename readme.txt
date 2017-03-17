@@ -4,7 +4,7 @@ Donate link:
 Tags: meta, meta box, cmb2, postbox, postbox container
 Requires at least: 4.5
 Tested up to: 4.5
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,3 +42,6 @@ To initialize a meta box above the editor, you can add a 'context' value of 'pri
 
 = 1.0.2 =
 * Fixed date picker float for CMB2 when above editor
+
+= 1.0.3 =
+* Added new artwork.
