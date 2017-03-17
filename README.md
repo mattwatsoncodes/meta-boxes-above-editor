@@ -2,6 +2,8 @@
 
 Render meta boxes above the editor, by dragging and dropping, or registering a meta box with a 'context' value of 'primary'.
 
+![Meta Boxes Above Editor](https://github.com/mkdo/meta-boxes-above-editor/blob/master/assets/banner-1544x500.png?raw=true "Meta Boxes Above Editor")
+
 ## About
 
 Designed initially to work with [CMB2](https://wordpress.org/plugins/cmb2/), but will work with any Meta Box.
